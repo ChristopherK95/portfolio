@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.728efb2a.chunk.css",
+    "main.js": "/portfolio/static/js/main.ce0bbb07.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ce0bbb07.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/js/2.afe3ac5b.chunk.js": "/portfolio/static/js/2.afe3ac5b.chunk.js",
+    "static/js/2.afe3ac5b.chunk.js.map": "/portfolio/static/js/2.afe3ac5b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.728efb2a.chunk.css.map": "/portfolio/static/css/main.728efb2a.chunk.css.map",
+    "static/js/2.afe3ac5b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.afe3ac5b.chunk.js.LICENSE.txt",
+    "static/media/Book.fb740051.svg": "/portfolio/static/media/Book.fb740051.svg",
+    "static/media/Books.874cf83b.svg": "/portfolio/static/media/Books.874cf83b.svg",
+    "static/media/C#.486ff0d5.svg": "/portfolio/static/media/C#.486ff0d5.svg",
+    "static/media/Email.f5db569a.svg": "/portfolio/static/media/Email.f5db569a.svg",
+    "static/media/Links.css": "/portfolio/static/media/Fixedsys.c79051f5.ttf",
+    "static/media/GitHub.2510077b.svg": "/portfolio/static/media/GitHub.2510077b.svg",
+    "static/media/Hobbies.f194ce09.svg": "/portfolio/static/media/Hobbies.f194ce09.svg",
+    "static/media/Image.0d1cfbc4.svg": "/portfolio/static/media/Image.0d1cfbc4.svg",
+    "static/media/Json.b19238da.svg": "/portfolio/static/media/Json.b19238da.svg",
+    "static/media/Languages.aad8b117.svg": "/portfolio/static/media/Languages.aad8b117.svg",
+    "static/media/Leaf1.602c8171.svg": "/portfolio/static/media/Leaf1.602c8171.svg",
+    "static/media/Leaf2.02e55cf3.svg": "/portfolio/static/media/Leaf2.02e55cf3.svg",
+    "static/media/App.css": "/portfolio/static/media/Nexa-Bold.c2b99812.otf",
+    "static/media/NodeJs.f65fd162.svg": "/portfolio/static/media/NodeJs.f65fd162.svg",
+    "static/media/React.8f2db0d5.svg": "/portfolio/static/media/React.8f2db0d5.svg",
+    "static/media/Sass.75ba10b7.svg": "/portfolio/static/media/Sass.75ba10b7.svg",
+    "static/media/SocketIO.e4b212fb.svg": "/portfolio/static/media/SocketIO.e4b212fb.svg",
+    "static/media/SoftwareWeb2.d1b46b6c.svg": "/portfolio/static/media/SoftwareWeb2.d1b46b6c.svg",
+    "static/media/Xaml.6d66ca16.svg": "/portfolio/static/media/Xaml.6d66ca16.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/js/2.afe3ac5b.chunk.js",
+    "static/css/main.728efb2a.chunk.css",
+    "static/js/main.ce0bbb07.chunk.js"
+  ]
+}
