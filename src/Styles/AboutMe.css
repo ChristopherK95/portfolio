@@ -1,0 +1,116 @@
+.AboutMe {
+  height: 80%;
+  padding-top: 50px;
+}
+
+.AboutMe .Section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin-bottom: 50px;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  opacity: 0;
+}
+
+.AboutMe .Section h1 {
+  color: white;
+  padding-bottom: 10px;
+  font-family: Nexa;
+}
+
+.AboutMe .Section p {
+  color: white;
+  padding-bottom: 10px;
+  font-family: Nexa;
+}
+
+.AboutMe .TextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin-bottom: 80px;
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  opacity: 0;
+  background: #252425;
+  padding: 20px 20px 15px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px 2px;
+          box-shadow: 0 0 10px 2px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.AboutMe .TextContainer h1 {
+  color: white;
+  border-bottom: solid 3px white;
+  margin-bottom: 25px;
+  padding-left: 5px;
+}
+
+.AboutMe .TextContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.AboutMe .TextContainer div i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 130px;
+  width: 200px;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 30px;
+}
+
+.AboutMe .TextContainer div .Book svg {
+  position: absolute;
+  left: 30px;
+  height: 100%;
+}
+
+.AboutMe .TextContainer div .Hobbies {
+  height: 194px;
+  width: 220px;
+}
+
+.AboutMe .TextContainer div p {
+  color: white;
+  font-family: "Nexa";
+  font-size: 18px;
+  width: 500px;
+  line-height: 30px;
+}
+
+@-webkit-keyframes enter {
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes enter {
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .AboutMe .EnterAnimation {
+    -webkit-animation: enter 1s forwards;
+            animation: enter 1s forwards;
+  }
+}
+/*# sourceMappingURL=AboutMe.css.map */

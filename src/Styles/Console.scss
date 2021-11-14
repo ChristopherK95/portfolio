@@ -1,0 +1,271 @@
+@font-face {
+  font-family: "Fixedsys";
+  src: url("../Fonts/Fixedsys.ttf");
+}
+
+$console-delay: 4s;
+$typewriter-speed: 3s;
+$caret-color: #28de76;
+
+.Console {
+  top: 140px;
+  position: relative;
+  height: 500px;
+  width: 800px;
+  border-radius: 10px;
+  border: solid 8px rgb(21, 21, 26);
+  border-top: none;
+  background-color: #0f0f13;
+  box-shadow: 6px 6px 5px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(200px);
+  animation: slideUp 1s $console-delay forwards;
+
+  .Top {
+    background-color: rgb(21, 21, 26);
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    :first-child {
+      background-color: #fa5c57;
+      margin-left: 10px;
+    }
+
+    :nth-child(2) {
+      background-color: #e5be3c;
+    }
+
+    :last-child {
+      background-color: #5ebf38;
+    }
+
+    .Circle {
+      height: 20px;
+      width: 20px;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+  }
+
+  .Content {
+    padding: 15px;
+
+    .Row {
+      color: $caret-color;
+      font-family: "Fixedsys";
+      font-size: 26px;
+      position: relative;
+      width: max-content;
+      overflow-wrap: break-word;
+    }
+
+    .Row::before,
+    .Row::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .one {
+      margin-bottom: 15px;
+      animation: clear 0s calc(#{$console-delay} + 6.5s) forwards;
+    }
+
+    .two,
+    .three {
+      animation: clear 0s calc(#{$console-delay} + 6.5s) forwards;
+    }
+
+    .one::before {
+      background-color: #0f0f13;
+      animation: typewriter 1s steps(41) calc(#{$console-delay} + 1s) forwards;
+    }
+
+    .one::after {
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 1s steps(41) calc(#{$console-delay} + 1s) forwards,
+        blink 800ms steps(41) infinite,
+        hide 0s calc(#{$console-delay} + 2s) forwards;
+    }
+
+    .two::before {
+      background-color: #0f0f13;
+      animation: typewriter 0.5s steps(18) calc(#{$console-delay} + 2.3s)
+        forwards;
+    }
+
+    .two::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 0.5s steps(18) calc(#{$console-delay} + 2.3s)
+          forwards,
+        blink 800ms steps(18) infinite,
+        show 0s calc(#{$console-delay} + 2.3s) forwards,
+        hide 0s calc(#{$console-delay} + 2.3s + 0.5s) forwards;
+    }
+
+    .three::before {
+      background-color: #0f0f13;
+      animation: typewriter2 $typewriter-speed steps(11)
+        calc(#{$console-delay} + 3s) forwards;
+    }
+
+    .three::after {
+      visibility: hidden;
+      position: absolute;
+      top: 25px;
+      width: 15px;
+      height: 3px;
+      background-color: $caret-color;
+      animation: typewriter2 $typewriter-speed steps(11)
+          calc(#{$console-delay} + 3s) forwards,
+        blink 800ms steps(11) infinite,
+        show 0s calc(#{$console-delay} + 3s) forwards;
+    }
+
+    .four::before {
+      background-color: #0f0f13;
+      animation: typewriter 0.5s steps(30) calc(#{$console-delay} + 7s) forwards;
+    }
+
+    .four::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 0.5s steps(30) calc(#{$console-delay} + 7s) forwards,
+        blink 800ms steps(30) infinite,
+        show 0s calc(#{$console-delay} + 7s) forwards,
+        hide 0s calc(#{$console-delay} + 7.5s) forwards;
+    }
+
+    .five::before {
+      background-color: #0f0f13;
+      animation: typewriter 1s steps(56) calc(#{$console-delay} + 7.7s) forwards;
+    }
+
+    .five::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 1s steps(56) calc(#{$console-delay} + 7.7s) forwards,
+        blink 800ms steps(56) infinite,
+        show 0s calc(#{$console-delay} + 7.7s) forwards,
+        hide 0s calc(#{$console-delay} + 8.7s) forwards;
+    }
+
+    .six::before {
+      background-color: #0f0f13;
+      animation: typewriter 1s steps(55) calc(#{$console-delay} + 8.9s) forwards;
+    }
+
+    .six::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 1s steps(55) calc(#{$console-delay} + 8.9s) forwards,
+        blink 800ms steps(55) infinite,
+        show 0s calc(#{$console-delay} + 8.9s) forwards,
+        hide 0s calc(#{$console-delay} + 9.9s) forwards;
+    }
+
+    .seven::before {
+      background-color: #0f0f13;
+      animation: typewriter 0.8s steps(42) calc(#{$console-delay} + 10.1s)
+        forwards;
+    }
+
+    .seven::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 0.8s steps(42) calc(#{$console-delay} + 10.1s)
+          forwards,
+        blink 800ms steps(42) infinite,
+        show 0s calc(#{$console-delay} + 10.1s) forwards,
+        hide 0s calc(#{$console-delay} + 10.9s) forwards;
+    }
+
+    .eight::before {
+      background-color: #0f0f13;
+      animation: typewriter 0.5s steps(25) calc(#{$console-delay} + 11.1s)
+        forwards;
+    }
+
+    .eight::after {
+      visibility: hidden;
+      width: 8px;
+      background-color: $caret-color;
+      animation: typewriter 0.5s steps(25) calc(#{$console-delay} + 11.1s)
+          forwards,
+        blink 800ms steps(42) infinite,
+        show 0s calc(#{$console-delay} + 11.1s) forwards;
+    }
+
+    @keyframes typewriter {
+      from {
+        left: 0%;
+      }
+      to {
+        left: 100%;
+      }
+    }
+
+    @keyframes typewriter2 {
+      0% {
+        left: 9.16%;
+      }
+      33% {
+        left: 9.16%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
+
+    @keyframes blink {
+      0% {
+        background-color: #0f0f13;
+      }
+      50% {
+        background-color: $caret-color;
+      }
+      100% {
+        background-color: #0f0f13;
+      }
+    }
+
+    @keyframes hide {
+      to {
+        visibility: hidden;
+      }
+    }
+
+    @keyframes show {
+      to {
+        visibility: visible;
+      }
+    }
+  }
+
+  @keyframes slideUp {
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes clear {
+    to {
+      height: 0;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+  }
+}

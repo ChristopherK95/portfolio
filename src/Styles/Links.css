@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Fixedsys";
+  src: url("../Fonts/Fixedsys.ttf");
+}
+
+.Links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+  padding: 10px;
+  z-index: 1;
+}
+
+.Links div {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s, -webkit-box-shadow 0.3s;
+  transition: background-color 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, background-color 0.3s;
+  transition: box-shadow 0.3s, background-color 0.3s, -webkit-box-shadow 0.3s;
+  font-weight: bold;
+}
+
+.Links div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
+.Links div i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 18px;
+  margin-right: 5px;
+}
+
+.Links div:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0 0 0 3px white;
+          box-shadow: 0 0 0 3px white;
+}
+
+@-webkit-keyframes link-enter {
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes link-enter {
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+/*# sourceMappingURL=Links.css.map */
