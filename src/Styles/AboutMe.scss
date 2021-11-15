@@ -3,7 +3,7 @@
   padding-top: 50px;
 
   .Section {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
     margin-bottom: 50px;
     transform: translateX(-100px);
     opacity: 0;
@@ -84,6 +84,45 @@
   @media (prefers-reduced-motion: no-preference) {
     .EnterAnimation {
       animation: enter 1s forwards;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .AboutMe {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .TextContainer {
+      width: 100%;
+
+      div {
+        display: inline-block;
+
+        p {
+          font-size: 15px;
+          width: 60%;
+          height: 100%;
+          line-height: 25px;
+          float: none;
+          margin: 0;
+          font-family: sans-serif;
+        }
+
+        i {
+          height: auto;
+          margin-right: 0 0 0 20px;
+          float: right;
+          width: 30% !important;
+        }
+
+        .Book {
+          svg {
+            position: relative;
+            left: 0;
+          }
+        }
+      }
     }
   }
 }

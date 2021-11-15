@@ -120,6 +120,15 @@ function App() {
             </div>
           </div>
         </div>
+        <a className="GitHub-Mobile" href="https://github.com/ChristopherK95">
+          <h2>Visit my GitHub!</h2>
+          <button>
+            <i>
+              <GitHub />
+            </i>
+            GitHub
+          </button>
+        </a>
         <div className="Curve1">
           <svg
             data-name="Layer 1"

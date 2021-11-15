@@ -3,11 +3,6 @@
   src: url("../Fonts/Nexa-Bold.otf");
 }
 
-@font-face {
-  font-family: "Fixedsys";
-  src: url("../Fonts/Fixedsys.ttf");
-}
-
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -301,7 +296,7 @@
 
 .App .Intro-Skills {
   position: absolute;
-  right: 500px;
+  right: 10%;
 }
 
 .App .Intro-Skills .Blob {
@@ -436,6 +431,10 @@
   margin-right: 10px;
   -webkit-box-shadow: 0 0 5px 1px #0006;
           box-shadow: 0 0 5px 1px #0006;
+}
+
+.App .GitHub-Mobile {
+  display: none;
 }
 
 .App .Content {
@@ -890,6 +889,144 @@
   .App .EnterAnimation {
     -webkit-animation: enter 1s forwards;
             animation: enter 1s forwards;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App .Top-Bar {
+    display: none;
+  }
+  .App .Intro-Page {
+    padding-top: 10px;
+    padding-bottom: 35px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .App .Intro-Page .Intro {
+    width: 100%;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .App .Intro-Page .Intro .Profile-Pic {
+    position: static;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  .App .Intro-Page .Intro .Greeting {
+    text-align: left;
+  }
+  .App .Intro-Page .Intro #Title {
+    font-size: 3rem;
+  }
+  .App .Intro-Page .Intro-Skills {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+  .App .Intro-Page .Intro-Skills .Blob {
+    display: none;
+  }
+  .App .Intro-Page .Intro-Skills .Skills {
+    margin-bottom: 20px;
+  }
+  .App .Intro-Page .GitHub-Mobile {
+    text-decoration: none;
+    display: block;
+    padding-top: 115px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .App .Intro-Page .GitHub-Mobile h2 {
+    pointer-events: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .App .Intro-Page .GitHub-Mobile button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: none;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f16e4f), to(#f75c9a));
+    background: linear-gradient(to top, #f16e4f, #f75c9a);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+    -webkit-box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+    opacity: 0;
+    font-weight: bold;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    -webkit-animation: enter 0.5s ease 1.6s forwards;
+            animation: enter 0.5s ease 1.6s forwards;
+  }
+  .App .Intro-Page .GitHub-Mobile button:hover {
+    -webkit-filter: brightness(1.1);
+            filter: brightness(1.1);
+    margin-bottom: 8px;
+  }
+  .App .Intro-Page .GitHub-Mobile button i {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .App .Content {
+    padding-top: 115px;
+  }
+  .App .End h2 {
+    margin-bottom: 15px;
+  }
+  .App .End .Links {
+    margin-bottom: 15px;
+  }
+  .App .End p {
+    font-size: 16px;
+    padding: 0 10px;
   }
 }
 /*# sourceMappingURL=App.css.map */

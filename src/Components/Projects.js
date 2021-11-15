@@ -4,7 +4,6 @@ import "../Styles/Projects.css";
 import { ReactComponent as GitHub } from "../SVGs/GitHub.svg";
 import { ReactComponent as CSharp } from "../SVGs/C#.svg";
 import { ReactComponent as React } from "../SVGs/React.svg";
-import { ReactComponent as Image } from "../SVGs/Image.svg";
 import { ReactComponent as Xaml } from "../SVGs/Xaml.svg";
 import { ReactComponent as Json } from "../SVGs/Json.svg";
 import { ReactComponent as Sass } from "../SVGs/Sass.svg";

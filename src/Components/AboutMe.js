@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import "../Styles/AboutMe.css";
 import { ReactComponent as Software } from "../SVGs/SoftwareWeb2.svg";
-import { ReactComponent as Books } from "../SVGs/Books.svg";
 import { ReactComponent as Book } from "../SVGs/Book.svg";
 import { ReactComponent as Languages } from "../SVGs/Languages.svg";
 import { ReactComponent as Hobbies } from "../SVGs/Hobbies.svg";

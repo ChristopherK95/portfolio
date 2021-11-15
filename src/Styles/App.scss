@@ -3,13 +3,6 @@
   src: url("../Fonts/Nexa-Bold.otf");
 }
 
-@font-face {
-  font-family: "Fixedsys";
-  src: url("../Fonts/Fixedsys.ttf");
-}
-
-$typewriter-speed: 1.2s;
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -223,7 +216,7 @@ $typewriter-speed: 1.2s;
 
   .Intro-Skills {
     position: absolute;
-    right: 500px;
+    right: 10%;
 
     .Blob {
       position: absolute;
@@ -300,6 +293,10 @@ $typewriter-speed: 1.2s;
         box-shadow: 0 0 5px 1px #0006;
       }
     }
+  }
+
+  .GitHub-Mobile {
+    display: none;
   }
 
   .Content {
@@ -563,6 +560,129 @@ $typewriter-speed: 1.2s;
   @media (prefers-reduced-motion: no-preference) {
     .EnterAnimation {
       animation: enter 1s forwards;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    .Top-Bar {
+      display: none;
+    }
+
+    .Intro-Page {
+      padding-top: 10px;
+      padding-bottom: 35px;
+      flex-direction: column;
+
+      .Intro {
+        width: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .Profile-Pic {
+          position: static;
+          width: 150px;
+          height: 150px;
+          margin-bottom: 15px;
+        }
+
+        .Greeting {
+          text-align: left;
+        }
+
+        #Title {
+          font-size: 3rem;
+        }
+      }
+
+      .Intro-Skills {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 50px;
+
+        .Blob {
+          display: none;
+        }
+
+        .Skills {
+          margin-bottom: 20px;
+        }
+      }
+
+      .GitHub-Mobile {
+        text-decoration: none;
+        display: block;
+        padding-top: 115px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+          pointer-events: none;
+          text-decoration: none;
+          color: white;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+
+        button {
+          display: flex;
+          align-items: center;
+          border: none;
+          background: linear-gradient(to top, #f16e4f, #f75c9a);
+          padding: 15px 30px;
+          border-radius: 5px;
+          font-size: 20px;
+          color: white;
+          font-family: sans-serif;
+          cursor: pointer;
+          box-shadow: 0 3px 5px 2px rgba(0, 0, 0, 0.4);
+          transform: translateY(-200px);
+          opacity: 0;
+          font-weight: bold;
+          transition: all 0.2s ease;
+          animation: enter 0.5s ease 1.6s forwards;
+
+          &:hover {
+            filter: brightness(1.1);
+            margin-bottom: 8px;
+          }
+
+          i {
+            width: 25px;
+            height: 25px;
+            margin-right: 8px;
+            display: flex;
+          }
+        }
+      }
+    }
+
+    .Content {
+      padding-top: 115px;
+    }
+
+    .End {
+      h2 {
+        margin-bottom: 15px;
+      }
+
+      .Links {
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 16px;
+        padding: 0 10px;
+      }
     }
   }
 }
