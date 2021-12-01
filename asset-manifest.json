@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a4b98e2.chunk.css",
-    "main.js": "/portfolio/static/js/main.d0f571bd.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d0f571bd.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2a3a85d0.chunk.css",
+    "main.js": "/portfolio/static/js/main.272b671e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.272b671e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.afe3ac5b.chunk.js": "/portfolio/static/js/2.afe3ac5b.chunk.js",
     "static/js/2.afe3ac5b.chunk.js.map": "/portfolio/static/js/2.afe3ac5b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5a4b98e2.chunk.css.map": "/portfolio/static/css/main.5a4b98e2.chunk.css.map",
+    "static/css/main.2a3a85d0.chunk.css.map": "/portfolio/static/css/main.2a3a85d0.chunk.css.map",
     "static/js/2.afe3ac5b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.afe3ac5b.chunk.js.LICENSE.txt",
     "static/media/Book.5e68b367.svg": "/portfolio/static/media/Book.5e68b367.svg",
     "static/media/C#.486ff0d5.svg": "/portfolio/static/media/C#.486ff0d5.svg",
+    "static/media/Electron.8130c5c7.svg": "/portfolio/static/media/Electron.8130c5c7.svg",
     "static/media/Email.f5db569a.svg": "/portfolio/static/media/Email.f5db569a.svg",
     "static/media/GitHub.2510077b.svg": "/portfolio/static/media/GitHub.2510077b.svg",
     "static/media/Hobbies.f194ce09.svg": "/portfolio/static/media/Hobbies.f194ce09.svg",
@@ -25,12 +26,13 @@
     "static/media/Sass.75ba10b7.svg": "/portfolio/static/media/Sass.75ba10b7.svg",
     "static/media/SocketIO.e4b212fb.svg": "/portfolio/static/media/SocketIO.e4b212fb.svg",
     "static/media/SoftwareWeb2.d1b46b6c.svg": "/portfolio/static/media/SoftwareWeb2.d1b46b6c.svg",
+    "static/media/TypeScript.7013ffe8.svg": "/portfolio/static/media/TypeScript.7013ffe8.svg",
     "static/media/Xaml.6d66ca16.svg": "/portfolio/static/media/Xaml.6d66ca16.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.afe3ac5b.chunk.js",
-    "static/css/main.5a4b98e2.chunk.css",
-    "static/js/main.d0f571bd.chunk.js"
+    "static/css/main.2a3a85d0.chunk.css",
+    "static/js/main.272b671e.chunk.js"
   ]
 }
