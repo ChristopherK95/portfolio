@@ -9,6 +9,8 @@ import { ReactComponent as Json } from "../SVGs/Json.svg";
 import { ReactComponent as Sass } from "../SVGs/Sass.svg";
 import { ReactComponent as NodeJs } from "../SVGs/NodeJs.svg";
 import { ReactComponent as SocketIO } from "../SVGs/SocketIO.svg";
+import { ReactComponent as Electron } from "../SVGs/Electron.svg";
+import { ReactComponent as Typescript } from "../SVGs/TypeScript.svg";
 
 function Projects() {
   const projectElement = useRef([]);
@@ -121,6 +123,46 @@ function Projects() {
                 </button>
               </a>
               <a href="https://github.com/ChristopherK95/TwitchTrack/releases/latest">
+                <button className="Visit">Download</button>
+              </a>
+            </div>
+          </div>
+
+          <div
+            ref={(element) => {
+              projectElement.current[projectElement.current.length] = element;
+            }}
+            className="ProjectCard"
+          >
+            <div className="Tools">
+              <i data-title="Electron">
+                <Electron />
+              </i>
+              <i data-title="React">
+                <React />
+              </i>
+              <i data-title="Typescript">
+                <Typescript />
+              </i>
+            </div>
+            <img
+              className="Preview"
+              src="./Images/TwitchTrackElectronShowcase.png"
+              alt=""
+            />
+            <h1 className="Title">TwitchTrack (Electron)</h1>
+            <p className="Description">
+              TwitchTrack(Electron), a newer recreation of TwitchTrack(WPF).
+            </p>
+            <div className="Buttons">
+              <a href="https://github.com/ChristopherK95/twitch-track-electron">
+                <button className="Github">
+                  <i>
+                    <GitHub />
+                  </i>
+                </button>
+              </a>
+              <a href="https://github.com/ChristopherK95/twitch-track-electron/releases/latest">
                 <button className="Visit">Download</button>
               </a>
             </div>
